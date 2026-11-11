@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pro kadeřnice, kosmetičky, masérky a nehtová studia na 1–5 míst: klienti se objednají online podle vašeho kalendáře a den předem jim přijde SMS připomínka.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Termínek</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Příklad</a><a href="#start" data-ev="click_nav_start">Začít</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Termínek</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Příklad</a><a href="#start" data-ev="click_nav_start">Začít</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Online rezervace pro malý salon — klienti se objednají sami a nezapomenou přijít</h1>
-    <p class="sub">Pro salony na jedno až pět míst: nastavíte služby, délku a pracovní dobu, klienti si vyberou volný termín na vašem odkazu a den před návštěvou jim přijde SMS připomínka.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">To potřebuji</a>
-    <p class="cta-note">Předběžný přístup · Na této stránce zatím nepřijímáme platby</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pro salony na jedno až pět míst</p>
+      <h1 class="rise" style="--i:1" data-len="long">Online rezervace pro malý salon&nbsp;<span class="soft">— klienti se objednají sami a nezapomenou přijít</span></h1>
+      <p class="rise" style="--i:2">Pro salony na jedno až pět míst: nastavíte služby, délku a pracovní dobu, klienti si vyberou volný termín na vašem odkazu a den před návštěvou jim přijde SMS připomínka.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">To potřebuji</a>
+      <p class="meta rise" style="--i:4">Předběžný přístup · Na této stránce zatím nepřijímáme platby</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Rezervace</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><text x="130" y="270" font-size="32" font-weight="600" fill="#0a1524">Kalendář</text><rect x="130" y="320" width="160" height="310" rx="16" fill="#dfe8f7" /><rect x="320" y="320" width="160" height="310" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="320" width="160" height="310" rx="16" fill="#12397a" /><text x="760" y="270" font-size="34" font-weight="600" fill="#0a1524">SMS</text><rect x="740" y="320" width="320" height="180" rx="20" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="770" y="370" width="220" height="24" rx="8" fill="#dde2ea" /><rect x="770" y="420" width="150" height="36" rx="12" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pro</dt><dd>Salony na jedno až pět</dd></div>
+      <div><dt>Klient</dt><dd>Klienti se objednají sami</dd></div>
+      <div><dt>Jak</dt><dd>Bez instalace</dd></div>
+      <div><dt>Přístup</dt><dd>Předběžný přístup</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostanete</h2>
-    <div class="grid">
-      <div class="card"><b>Rezervace online</b><span>Klient vybere službu, místo a volný čas.</span><br><a class="btn" href="price.html" data-ev="feature_rezervace">To potřebuji</a></div>
-      <div class="card"><b>SMS připomínky</b><span>Den před návštěvou, s možností zrušení.</span><br><a class="btn" href="price.html" data-ev="feature_sms">To potřebuji</a></div>
-      <div class="card"><b>Kalendář salonu</b><span>Pro každé místo nebo pracovnici zvlášť.</span><br><a class="btn" href="price.html" data-ev="feature_kalendar">To potřebuji</a></div>
-      <div class="card"><b>Karta klienta</b><span>Historie návštěv a poznámky k barvě či ošetření.</span><br><a class="btn" href="price.html" data-ev="feature_klienti">To potřebuji</a></div>
+    <div class="stack"><h2>Co dostanete</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="34" font-weight="600" fill="#0a1524">Rezervace online</text><rect x="70" y="170" width="240" height="340" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="170" width="240" height="340" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="230" width="180" height="24" rx="8" fill="#dde2ea" /><rect x="100" y="290" width="140" height="24" rx="8" fill="#b9c3d2" /><rect x="530" y="240" width="180" height="70" rx="12" fill="#12397a" /><polygon points="340,300 450,300 450,280 480,320 450,360 450,340 340,340" fill="#12397a" /></svg></div>
+        <h3>Rezervace online</h3><p>Klient vybere službu, místo a volný čas.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rezervace">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="230" y="70" width="340" height="470" rx="32" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="260" y="170" font-size="32" font-weight="600" fill="#0a1524">SMS připomínky</text><rect x="270" y="220" width="260" height="120" rx="16" fill="#dfe8f7" /><rect x="290" y="255" width="180" height="20" rx="8" fill="#ffffff" /><rect x="270" y="380" width="180" height="48" rx="14" fill="#12397a" /></svg></div>
+        <h3>SMS připomínky</h3><p>Den před návštěvou, s možností zrušení.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sms">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Kalendář salonu</text><rect x="140" y="200" width="90" height="110" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="200" width="90" height="110" rx="10" fill="#dfe8f7" /><rect x="360" y="200" width="90" height="110" rx="10" fill="#12397a" /><rect x="470" y="200" width="90" height="110" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="580" y="200" width="90" height="110" rx="10" fill="#dde2ea" /><rect x="140" y="340" width="90" height="110" rx="10" fill="#b9c3d2" /><rect x="250" y="340" width="90" height="110" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="360" y="340" width="90" height="110" rx="10" fill="#dfe8f7" /><rect x="470" y="340" width="90" height="110" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="580" y="340" width="90" height="110" rx="10" fill="#dde2ea" /></svg></div>
+        <h3>Kalendář salonu</h3><p>Pro každé místo nebo pracovnici zvlášť.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kalendar">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="140" y="70" width="520" height="460" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="70" width="520" height="70" fill="#dfe8f7" /><text x="180" y="200" font-size="34" font-weight="600" fill="#0a1524">Karta klienta</text><rect x="180" y="260" width="420" height="22" rx="8" fill="#dde2ea" /><rect x="180" y="320" width="300" height="22" rx="8" fill="#b9c3d2" /><rect x="180" y="380" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="180" y="440" width="160" height="50" rx="12" fill="#12397a" /></svg></div>
+        <h3>Karta klienta</h3><p>Historie návštěv a poznámky k barvě či ošetření.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_klienti">To potřebuji</a>
+      </article>
     </div>
   </section>
 
-  <section id="priklad" data-view="example_view">
-    <h2>Příklad (fiktivní údaje)</h2>
-    <p class="fine">Kadeřnictví v Plzni, dvě křesla a jedna kosmetička na půl úvazku. Dřív se klientky objednávaly telefonem, často během stříhání, a zhruba každý týden někdo nepřišel. Teď mají na Instagramu odkaz na rezervace, klientka si vybere službu a volný čas sama a den předem jí přijde SMS. Majitelka vidí celý týden v jednom kalendáři a neodpovídá na telefon s nůžkami v ruce.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Vyberte tarif</a>
+  <section id="priklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Příklad</h2>
+      <p>Kadeřnictví v Plzni, dvě křesla a jedna kosmetička na půl úvazku. Dřív se klientky objednávaly telefonem, často během stříhání, a zhruba každý týden někdo nepřišel. Teď mají na Instagramu odkaz na rezervace, klientka si vybere službu a volný čas sama a den předem jí přijde SMS. Majitelka vidí celý týden v jednom kalendáři a neodpovídá na telefon s nůžkami v ruce.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Vyberte tarif</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#b9c3d2" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Kadeřnictví</text><text x="600" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">volný čas</text><text x="960" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">přijde SMS</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" font-weight="600" fill="#0a1524">Majitelka</text><text x="170" y="470" font-size="32" fill="#566174">celý týden</text><rect x="170" y="540" width="120" height="90" rx="12" fill="#dfe8f7" /><rect x="310" y="540" width="120" height="90" rx="12" fill="#12397a" /><rect x="450" y="540" width="120" height="90" rx="12" fill="#dde2ea" /><rect x="590" y="540" width="120" height="90" rx="12" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to funguje</h2>
-    <p>V malém salonu se termíny často domlouvají telefonem nebo přes zprávy, a to zrovna ve chvíli, kdy má kadeřnice nebo kosmetička rozdělanou práci. Kalendář je v sešitě nebo v telefonu, klienti zapomínají přijít a prázdná hodina se už nezaplní.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to funguje</h2></div>
+    <div class="stack">
+      <p>V malém salonu se termíny často domlouvají telefonem nebo přes zprávy, a to zrovna ve chvíli, kdy má kadeřnice nebo kosmetička rozdělanou práci. Kalendář je v sešitě nebo v telefonu, klienti zapomínají přijít a prázdná hodina se už nezaplní.</p>
     <p>Termínek tuto práci přebírá. Odpovědi na časté otázky najdete v sekci <a href="#faq" data-ev="click_opis_faq">otázek a odpovědí</a> a zájem můžete dát najevo <a href="#start" data-ev="click_opis_start">dole na stránce</a>.</p>
     <p>Na začátku nastavíte služby, které nabízíte, jejich délku a přestávky mezi nimi, místa nebo pracovnice a pracovní dobu. Pro každé místo se vytvoří vlastní kalendář, takže se dvě klientky neobjednají na stejné křeslo ve stejný čas.</p>
     <p>Klienti dostanou odkaz na rezervace, který dáte na web, do profilu na sociálních sítích nebo do zprávy. Vyberou si službu, pracovnici a volný termín, zadají jméno a telefon a rezervace se hned objeví ve vašem kalendáři. Nemusíte nic přepisovat ani potvrzovat ručně.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Stálým klientům můžete nabídnout objednání na další termín hned při odchodu. Termínek pak pošle připomínku i na tuto návštěvu, takže klientka nemusí nic hlídat a vy máte kalendář naplněný na několik týdnů dopředu.</p>
     <p>Pro začátek stačí nastavit jedno místo a pár služeb.</p>
     <p>Termínek spravuje rezervace a připomínky; za poskytnuté služby a ceny odpovídá salon.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Časté dotazy</h2>
-    <h3>Jak se klienti objednají?</h3>
-    <p>Přes váš odkaz na rezervace: vyberou službu, pracovnici a volný termín a rezervace se hned objeví v kalendáři.</p>
-    <h3>Kdy přijde SMS připomínka?</h3>
-    <p>Den před návštěvou, s časem a adresou a s odkazem pro zrušení termínu.</p>
-    <h3>Kolik míst nebo pracovnic mohu mít?</h3>
-    <p>Termínek je pro salony na jedno až pět míst; každé má svůj kalendář.</p>
-    <h3>Mohu zapisovat i rezervace z telefonu?</h3>
-    <p>Ano, do stejného kalendáře, aby byly všechny termíny na jednom místě.</p>
-    <h3>Mohu Termínek používat už teď?</h3>
-    <p>Zatím ne. Služba se připravuje a ověřujeme, zda ji malé salony potřebují.</p>
+    <div class="stack"><h2>Časté dotazy</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Jak se klienti objednají?</h3><p>Přes váš odkaz na rezervace: vyberou službu, pracovnici a volný termín a rezervace se hned objeví v kalendáři.</p></div>
+      <div class="split flip"><h3>Kdy přijde SMS připomínka?</h3><p>Den před návštěvou, s časem a adresou a s odkazem pro zrušení termínu.</p></div>
+      <div class="split flip"><h3>Kolik míst nebo pracovnic mohu mít?</h3><p>Termínek je pro salony na jedno až pět míst; každé má svůj kalendář.</p></div>
+      <div class="split flip"><h3>Mohu zapisovat i rezervace z telefonu?</h3><p>Ano, do stejného kalendáře, aby byly všechny termíny na jednom místě.</p></div>
+      <div class="split flip"><h3>Mohu Termínek používat už teď?</h3><p>Zatím ne. Služba se připravuje a ověřujeme, zda ji malé salony potřebují.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dejte nám vědět</h2>
-    <p><label>Kolik míst má váš salon<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— vyberte —</option><option>1</option><option>2–3</option><option>4–5</option><option>Více než 5</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Začít</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dejte nám vědět</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kolik míst má váš salon<select data-ev-focus="form_start"><option value="">— vyberte —</option><option>1</option><option>2–3</option><option>4–5</option><option>Více než 5</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Začít</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Termínek</b></p>
   <p><a href="ochrana-udaju.html" data-ev="click_legal_privacy">Ochrana osobních údajů</a></p>
-  <p class="muted">Termínek spravuje rezervace a připomínky; za poskytnuté služby a ceny odpovídá salon.</p>
+  <p>Termínek spravuje rezervace a připomínky; za poskytnuté služby a ceny odpovídá salon.</p>
 </div></footer>
 
 </body>
